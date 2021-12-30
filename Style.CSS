@@ -1,29 +1,29 @@
-.galery{
-    
+.galery {
     width: 640px;
     height: 360px;
-    border: 10px solid;
-    border-color: rgb(31, 6, 6);
-
+    border: 5px solid;
+    background-color: #000000;
+    /*  */
+    overflow: hidden;
 }
 
-
-.galery .imagens{
-   
+.galery .imagens {
     width: 500%;
-    animation-name: Animação;
+    animation-name: animacao;
     animation-duration: 20s;
-    animation-iteration-count: infinite;  
-
+    animation-iteration-count: infinite;
 }
 
-.imagens img{
-
-    display: block;
+.galery .imagens img {
     width: 19.9%;
-
 }
 
 .corpo {
     background-color: rgb(135, 169, 221);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
