@@ -1,18 +1,17 @@
 .galery{
-    text-align: center;
-    width: 980px;
-    height: 460px;
-    background-color: rgb(117, 247, 252);
-    border: 5px;
-    overflow: hidden;
+    
+    width: 640px;
+    height: 360px;
+    border: 10px solid;
     border-color: rgb(31, 6, 6);
+
 }
 
-.imagens{
 
-    text-align: center;
+.galery .imagens{
+   
     width: 500%;
-    animation-name: Animacao;
+    animation-name: Animação;
     animation-duration: 20s;
     animation-iteration-count: infinite;  
 
@@ -20,7 +19,7 @@
 
 .imagens img{
 
-    text-align: center;
+    display: block;
     width: 19.9%;
 
 }
