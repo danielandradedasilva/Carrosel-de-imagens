@@ -1,4 +1,5 @@
 .galery{
+    text-align: center;
     width: 980px;
     height: 460px;
     background-color: rgb(117, 247, 252);
@@ -7,16 +8,23 @@
     border-color: rgb(31, 6, 6);
 }
 
-.galery .imagens{
+.imagens{
+
+    text-align: center;
     width: 500%;
+    animation-name: Animacao;
     animation-duration: 20s;
-    animation-name: Animacao;  
     animation-iteration-count: infinite;  
 
 }
 
-.galery .imagens img{
+.imagens img{
 
+    text-align: center;
     width: 19.9%;
 
+}
+
+.corpo {
+    background-color: rgb(135, 169, 221);
 }
